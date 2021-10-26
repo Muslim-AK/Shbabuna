@@ -138,7 +138,13 @@
     position: relative;
   }
   .header .logo {
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: bold;
     height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   @media (max-width: 767px) {
     .header .logo {
